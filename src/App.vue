@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Title />
+    <MyTitle />
   </div>
 </template>
 
 <script>
-import Title from './components/Title.vue'
+import MyTitle from './components/MyTitle.vue'
 
 export default {
   name: 'App',
   components: {
-    Title
+    MyTitle
   }
 }
 </script>
@@ -25,3 +25,5 @@ export default {
   margin-top: 60px;
 }
 </style>
+
+// Ho risolto problema legato a Title sostituendo il nome con MyTitle
