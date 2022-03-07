@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <MyTitle />
+    <JumboHero />
   </div>
 </template>
 
 <script>
 import MyTitle from './components/MyTitle.vue'
+import JumboHero from "./components/JumboHero.vue"
 
 export default {
   name: 'App',
   components: {
-    MyTitle
+    MyTitle,
+    JumboHero
   }
 }
 </script>
